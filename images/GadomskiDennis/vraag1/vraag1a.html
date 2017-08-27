@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="stijl/stijl.css">
+
+    <script>
+        $(document).ready(function () {
+
+            imgSunrise = true;
+
+            $('#imgPassionSunrise').on("click", function(){
+            if(imgSunrise){
+                $('#imgPassionSunrise').attr("src","figuren/roze_bubbels.jpg");
+                imgSunrise = false;
+
+            }else{
+                $('#imgPassionSunrise').attr("src","figuren/passion_sunrise.jpg");
+                imgSunrise = true;
+            }
+            });
+
+        });
+
+
+    </script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+<h1>Mocktails 2017</h1>
+
+<nav>
+    <a href="vraag1a.html">  <p>Op basis van grenadine </p></a><p>|</p>
+    <a href="vraag1b.html"><p>Informatie </p></a><p>|</p>
+    <a href="vraag1c.html"><p>Bestellen </p> </a><p>|</p>
+</nav>
+</header>
+
+<main id="mainContent">
+    <h2 id="title">Passion sunrise</h2>
+
+<article id="ingredienten">
+    <h2>Ingrediënten</h2>
+    <ul>
+    <li>Groenten / Fruit</li>
+        <ul><li>0.5 passievrucht</li></ul>
+        <li>Vloeistoffen</li>
+        <ul>
+            <li>2 eetl. grenadine</li>
+
+            <li>20 cl sinaasappellimonade</li>
+        </ul>
+        <li>
+            1 ijsblokje
+        </li>
+    </ul>
+</article>
+
+
+    <img src="figuren/passion_sunrise.jpg" height="542" width="500" id="imgPassionSunrise"/>
+
+    <article id="bereiding">
+        <h2>Bereiding <span id="minutes">5 min</span></h2>
+
+
+    <ol>
+
+    <li>Doe het ijsblokje en het vruchtvlees van de halve passievrucht in een longdrinkglas.</li>
+
+    <li>Voeg de grenadine toe.</li>
+
+    <li>Giet er daarna de sinaasappellimonade langs de bolle kant van een lepel bij
+    voor een mooi kleureffect.</li>
+</ol>
+    </article>
+</main>
+
+</div>
+</body>
+</html>

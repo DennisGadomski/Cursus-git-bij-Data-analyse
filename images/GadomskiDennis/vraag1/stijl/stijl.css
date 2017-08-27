@@ -1,0 +1,78 @@
+body{
+    background-image: url("../figuren/summer_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    overflow: auto;
+}
+
+header{
+    width:60%;
+    border:2px solid red;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+header h1{
+    color: #f8060c;
+    font-family: "Times New Roman";
+    margin-left: 20px;
+}
+
+#wrapper{
+    position: relative;
+    left: 20%;
+}
+
+nav{
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav a{
+    display: inline-block;
+}
+nav a,nav p{
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+nav p:hover{
+    background-color: gray;
+}
+
+#mainContent{
+    width:60%;
+    background-color: rgba(255, 255, 255, 0.80);
+    overflow:hidden;
+    margin-top: 20px;
+
+    border:2px solid red;
+    border-radius: 10px;
+}
+
+#title{
+    margin-left: 44%;
+    text-shadow: 2px 1px 5px red;
+}
+
+article {
+    margin-left: 20px;
+    float: left;
+    width: 40%;
+    clear:left ;
+}
+#imgPassionSunrise{
+    float: right;
+
+}
+#minutes{
+    font-size: 10px;
+}
+
